@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshika Dahal | Portfolio</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo-wrapper">
+                <span class="logo-icon">K</span>
+                <span class="logo-text">KESHIKA</span>
+            </div>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span><span></span><span></span>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero container reveal">
+        <div class="hero-content">
+            <h1>KESHIKA DAHAL</h1>
+            <h2>WEB DESIGNER & DEVELOPER</h2>
+            <p>I am a developer with a passion for turning complex problems into beautiful, functional websites. I bridge the gap between commercial logic and high-end technical design to build websites that truly perform..</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn">Say Hello!</a>
+                <a href="my-resume.pdf" download class="btn btn-outline">Download CV</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="keshika.jpg" alt="Keshika Dahal">
+        </div>
+    </section>
+
+    <section id="education" class="details-section reveal">
+        <div class="container">
+            <h3 class="section-title">Academic Journey</h3>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <span class="date">2024 - Ongoing</span>
+                    <h4>Bachelor of Computer Application</h4>
+                    <p>Hetauda School of Management & Social Sciences (HSMSS)</p>
+                </div>
+                <div class="edu-card">
+                    <span class="date">2022 - 2023</span>
+                    <h4>Higher Secondary Education (+2)</h4>
+                    <p>Management with Business Studies Background</p>
+                </div>
+                <div class="edu-card">
+                    <span class="date">Completed 2021</span>
+                    <h4>Secondary Level (SEE)</h4>
+                    <p>Foundation of Logic & Mathematics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container projects-section reveal">
+        <h3 class="section-title">Technical Expertise</h3>
+        <div class="projects-grid">
+            <div class="proj-card">
+                <h4>Frontend</h4>
+                <div class="skills-wrapper">
+                    <span class="tag">HTML5</span><span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span><span class="tag">Responsive Design</span>
+                </div>
+            </div>
+            <div class="proj-card">
+                <h4>Backend</h4>
+                <div class="skills-wrapper">
+                    <span class="tag">Java</span><span class="tag">C Language</span>
+                    <span class="tag">File Handling</span><span class="tag">Serialization</span>
+                </div>
+            </div>
+            <div class="proj-card">
+                <h4>Tools</h4>
+                <div class="skills-wrapper">
+                    <span class="tag">Figma</span><span class="tag">Git & GitHub</span>
+                    <span class="tag">VS Code</span><span class="tag">Deployment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container projects-section reveal">
+        <h3 class="section-title">Featured Work</h3>
+        <div class="projects-grid">
+            <div class="proj-card">
+                <h4>Student Management System</h4>
+                <p>A Java-based application for record-keeping with data persistence and file handling.</p>
+                <a href="#" class="proj-link">Source Code →</a>
+            </div>
+            <div class="proj-card">
+                <h4>Personal Portfolio</h4>
+                <p>A professional, responsive website built to showcase technical skills and design aesthetics.</p>
+                <a href="https://github.com/keshika043" class="proj-link">View Repo →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section reveal">
+        <div class="container">
+            <h3 class="section-title">My Services</h3>
+            <div class="projects-grid">
+                <div class="proj-card">
+                    <h4>Web Development</h4>
+                    <p>Building responsive, fast-loading websites using modern technologies like HTML, CSS, and JS.</p>
+                </div>
+                <div class="proj-card">
+                    <h4>UI/UX Design</h4>
+                    <p>Creating clean, user-friendly interfaces in Figma and translating them into pixel-perfect code.</p>
+                </div>
+                <div class="proj-card">
+                    <h4>Business Logic</h4>
+                    <p>Backend logic and desktop application development focusing on efficiency and Java.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section container reveal">
+        <div class="contact-box">
+            <h2>Let’s Work Together</h2>
+            <p>Have a project in mind? Drop a message and let's get in touch!</p>
+            
+            <form action="mailto:keshikadahal32@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo-wrapper" style="justify-content: center; margin-bottom: 20px;">
+                <span class="logo-icon">K</span>
+            </div>
+            <div class="contact-methods">
+                <a href="mailto:keshikadahal32@gmail.com">Email</a>
+                <a href="https://github.com/keshika043">GitHub</a>
+                <a href="https://figma.com/@keshika18">Figma</a>
+            </div>
+            <p>+977 9845905746 | Hetauda, Nepal</p>
+            <p class="copyright">Designed by **Keshika Dahal** &copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
