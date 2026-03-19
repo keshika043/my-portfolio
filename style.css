@@ -53,17 +53,31 @@ nav { display: flex; justify-content: space-between; align-items: center; }
 #menu-toggle { display: none; }
 
 /* Hero */
-.hero { display: flex; align-items: center; padding: 120px 0; gap: 60px; flex-wrap: wrap; }
-.hero-image { flex: 1; display: flex; justify-content: center; }
-.hero-image img { 
-    width: 320px; height: 320px; object-fit: cover; border-radius: 50%; 
-    border: 10px solid var(--accent); box-shadow: var(--card-shadow); transition: 0.5s; 
+.hero { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; /* This centers all your text */
+    padding: 150px 0; 
+    min-height: 80vh; /* Makes it feel big and airy */
 }
-.hero-image img:hover { transform: scale(1.05); border-color: var(--primary); }
-.hero-content { flex: 1.5; }
-.hero-content h1 { font-size: 3.8rem; color: var(--text-light); line-height: 1.1; margin-bottom: 15px; font-weight: 700; }
-.hero-content h2 { color: var(--primary); margin-bottom: 20px; font-weight: 400; font-size: 1.5rem; }
 
+.hero-content { 
+    max-width: 800px; /* Keeps the text from stretching too wide */
+    margin: 0 auto;
+}
+
+.hero-content h1 { 
+    font-size: 5rem; /* Larger, more confident title */
+    color: var(--text-light); 
+    letter-spacing: -2px; 
+    margin-bottom: 20px;
+}
+
+.hero-btns { 
+    justify-content: center; /* Centers your buttons */
+    margin-top: 40px; 
+}
 /* Buttons */
 .hero-btns { display: flex; gap: 15px; margin-top: 25px; }
 .btn {
